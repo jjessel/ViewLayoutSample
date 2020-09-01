@@ -12,6 +12,10 @@
 		DAAFC18624FDEE83006E8510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAAFC18524FDEE83006E8510 /* Assets.xcassets */; };
 		DAAFC18924FDEE83006E8510 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAAFC18824FDEE83006E8510 /* Preview Assets.xcassets */; };
 		DAAFC19224FDEECC006E8510 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAFC19124FDEECC006E8510 /* User.swift */; };
+		DAAFC19524FDF09A006E8510 /* VerticalStackRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAFC19424FDF09A006E8510 /* VerticalStackRowView.swift */; };
+		DAAFC19724FDF11D006E8510 /* HorizontalStackRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAFC19624FDF11D006E8510 /* HorizontalStackRowView.swift */; };
+		DAAFC19924FDF192006E8510 /* UserScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAFC19824FDF192006E8510 /* UserScrollView.swift */; };
+		DAAFC19B24FDF254006E8510 /* NoCars.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAFC19A24FDF254006E8510 /* NoCars.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		DAAFC18824FDEE83006E8510 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DAAFC18A24FDEE83006E8510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAAFC19124FDEECC006E8510 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DAAFC19424FDF09A006E8510 /* VerticalStackRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalStackRowView.swift; sourceTree = "<group>"; };
+		DAAFC19624FDF11D006E8510 /* HorizontalStackRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalStackRowView.swift; sourceTree = "<group>"; };
+		DAAFC19824FDF192006E8510 /* UserScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserScrollView.swift; sourceTree = "<group>"; };
+		DAAFC19A24FDF254006E8510 /* NoCars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoCars.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,7 @@
 				DAAFC18524FDEE83006E8510 /* Assets.xcassets */,
 				DAAFC18A24FDEE83006E8510 /* Info.plist */,
 				DAAFC18724FDEE83006E8510 /* Preview Content */,
+				DAAFC19824FDF192006E8510 /* UserScrollView.swift */,
 			);
 			path = ViewLayoutSample;
 			sourceTree = "<group>";
@@ -84,6 +93,9 @@
 		DAAFC19324FDEF2E006E8510 /* Stacks */ = {
 			isa = PBXGroup;
 			children = (
+				DAAFC19424FDF09A006E8510 /* VerticalStackRowView.swift */,
+				DAAFC19624FDF11D006E8510 /* HorizontalStackRowView.swift */,
+				DAAFC19A24FDF254006E8510 /* NoCars.swift */,
 			);
 			path = Stacks;
 			sourceTree = "<group>";
@@ -157,9 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAAFC19524FDF09A006E8510 /* VerticalStackRowView.swift in Sources */,
+				DAAFC19B24FDF254006E8510 /* NoCars.swift in Sources */,
 				DAAFC18424FDEE81006E8510 /* ContentView.swift in Sources */,
+				DAAFC19924FDF192006E8510 /* UserScrollView.swift in Sources */,
 				DAAFC18224FDEE81006E8510 /* ViewLayoutSampleApp.swift in Sources */,
 				DAAFC19224FDEECC006E8510 /* User.swift in Sources */,
+				DAAFC19724FDF11D006E8510 /* HorizontalStackRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
